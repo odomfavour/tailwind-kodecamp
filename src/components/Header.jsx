@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
 import { navLinks } from '../utils/data';
+import { LogoIcon } from '../utils/icons';
 
 const Header = () => {
   return (
     <nav className='shadow-md py-4'>
       <div className='container w-11/12 mx-auto flex justify-between'>
-        <h3 className='font-bold text-amber-950'>Tailwind</h3>
+        <h3 className='font-bold text-amber-950'>
+          <LogoIcon />
+        </h3>
         <ul className='flex gap-3'>
           {navLinks.map((navLink) => {
             const { id, url, name } = navLink;

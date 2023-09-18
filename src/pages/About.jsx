@@ -1,9 +1,10 @@
-import Header from '../components/Header';
+import AuthHeader from '../components/AuthHeader';
+// import Header from '../components/Header';
 
 const About = () => {
   return (
     <section>
-      <Header />
+      <AuthHeader />
     </section>
   );
 };
