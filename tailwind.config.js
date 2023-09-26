@@ -6,6 +6,9 @@ export default {
       colors: {
         primaryBlue: '#2776EA',
       },
+      backgroundImage: {
+        'customBg': "url('/src/assets/images/heroBg.png')",
+      },
     },
   },
   plugins: [],
