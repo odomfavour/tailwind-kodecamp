@@ -1,11 +1,16 @@
 import { useState } from 'react';
-import { CloseIcon, LogoIcon, MenuIcon } from "../utils/icons";
+import { CloseIcon, LogoIcon, LogoutIcon, MenuIcon, MessageIcon, NotificationIcon, ProfileIcon } from "../utils/icons";
 import { Link } from "react-router-dom";
-import { navLinks } from "../utils/data";
+import { loggedIn, navLinks } from "../utils/data";
 
+const iconMap = {
+	Message: MessageIcon,
+	Notification: NotificationIcon,
+	Profile: ProfileIcon,
+	Logout: LogoutIcon,
+};
 
-
-const Header = () => {
+const LoggedInNavbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
@@ -15,6 +20,8 @@ const Header = () => {
 	const closeMenu = () => {
 		setIsMenuOpen(false);
 	};
+
+
 
 	return (
 		<nav className="bg-blue-500 py-5 lg:px-10 px-5 w-full relative z-30">
@@ -45,20 +52,24 @@ const Header = () => {
 						return null;
 					})}
 				</ul>
-				<div className='md:flex gap-5 items-center hidden'>
-					<Link
-						to='/signup'
-						className='border-2 py-2 px-6 border-white rounded-[10px] text-white font-bold transition-all hover:bg-white hover:text-black'
-					>
-						Sign Up
-					</Link>
-					<Link
-						to='/login'
-						className='border-2 py-2 px-6 border-white bg-white rounded-[10px] text-primaryBlue font-bold hover:bg-transparent hover:text-black transition-all '
-					>
-						Login
-					</Link>
-				</div>
+				<ul className='lg:flex lg:flex-row flex-col items-center gap-10 hidden'>
+					{loggedIn.map((navLink) => {
+						const { id, url, name } = navLink;
+						const IconComponent = iconMap[name];
+						return (
+							<li key={id} className="flex items-center gap-2">
+								<Link to={url}
+									onClick={closeMenu}
+									className='text-white hover:text-base hover:font-bold transition-all'>
+									{name}
+								</Link>
+								<div>
+									{IconComponent && <IconComponent />}
+								</div>
+							</li>
+						);
+					})}
+				</ul>
 
 				{/* Mobile menu button */}
 				<div className="lg:hidden">
@@ -105,22 +116,28 @@ const Header = () => {
 							)
 						})}
 					</ul>
-					<div className='flex gap-5 px-4 items-start flex-col text-white'>
-						<Link
-							to='/signup'
-						>
-							Sign Up
-						</Link>
-						<Link
-							to='/login'
-						>
-							Login
-						</Link>
-					</div>
+					<ul className='px-4 space-y-5 '>
+						{loggedIn.map((navLink) => {
+							const { id, url, name } = navLink;
+							const IconComponent = iconMap[name];
+							return (
+								<li key={id} className="lg:flex items-center gap-2">
+									<Link to={url}
+										onClick={closeMenu}
+										className='text-white'>
+										{name}
+									</Link>
+									<div className='hidden lg:block'>
+										{IconComponent && <IconComponent />}
+									</div>
+								</li>
+							);
+						})}
+					</ul>
 				</div>
 			</div>
 		</nav >
 	);
 };
 
-export default Header;
+export default LoggedInNavbar;
