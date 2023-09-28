@@ -91,7 +91,7 @@ const Contact = () => {
           className=" absolute object-cover h-auto -z-10 max-md:hidden"
         />
         <div className="w-11/12 flex justify-end max-sm:justify-center  md:items-center lg:items-center mx-auto lg:h-[726px] md:h-[600px] max-sm:w-full">
-          <form className="w-5/12 max-sm:w-11/12 bg-white absolute max-sm:rounded-xl max-sm:opacity-80 max-sm:bg-gray-100 z-20 xl:px-8 md:px-6 md:py-8 xl:py-12 pb-5 max-sm:px-3 max-sm:pt-10 mx-auto ">
+          <form className="w-5/12 max-sm:w-11/12 bg-white absolute lg:rounded-[5px] max-sm:rounded-xl max-sm:opacity-80 max-sm:bg-gray-100 z-20 xl:px-8 md:px-6 md:py-8 xl:py-12 pb-5 max-sm:px-3 max-sm:pt-10 mx-auto ">
             <div className="mb-2 xl:mb-6">
               <label
                 htmlFor="name"
