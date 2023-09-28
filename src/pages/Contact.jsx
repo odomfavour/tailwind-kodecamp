@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import LoggedInNavbar from "../components/LoggedInNavbar";
 import { FaFacebookSquare } from "react-icons/fa";
 import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
@@ -7,7 +7,7 @@ import Location from "../assets/Icons/Location.svg";
 import Call from "../assets/Icons/Call.svg";
 import Email from "../assets/Icons/Email.svg";
 import ContactHero from "../assets/images/ContactHero.png";
-import Rec from "../assets/images/Rec.png";
+// import Rec from "../assets/images/Rec.png";
 
 const Contact = () => {
   const [ContactForm, setContactForm] = useState({
