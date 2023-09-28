@@ -4,13 +4,13 @@ import Home from "./pages/Index";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import RecruiterInfo from "./components/layout/RecruiterInfo";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<RecruiterInfo />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignUp />} />

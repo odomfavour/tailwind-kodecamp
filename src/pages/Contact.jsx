@@ -1,8 +1,8 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { useState } from "react";
 
-function RecruiterInfo() {
+function Contact() {
   const [name, setName] = useState("");
   const [companyName, setCompanyName] = useState("");
   const [companyType, setCompanyType] = useState("");
@@ -156,4 +156,4 @@ function RecruiterInfo() {
   );
 }
 
-export default RecruiterInfo;
+export default Contact;
