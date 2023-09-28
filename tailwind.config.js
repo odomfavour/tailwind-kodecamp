@@ -6,6 +6,12 @@ export default {
       colors: {
         primaryBlue: '#2776EA',
       },
+      backgroundImage: {
+        shortHero: "url('./src/assets/images/shortHero.png')"
+      },
+      aspectRatio: {
+        vision: 1,
+      }
     },
   },
   plugins: [],
