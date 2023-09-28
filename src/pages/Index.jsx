@@ -3,7 +3,7 @@ import ladyComp from '../assets/images/lady-comp.png';
 import { BiSearch } from 'react-icons/bi';
 const Home = () => {
   return (
-    <MainLayout isLoggedIn={false}>
+    <MainLayout isLoggedIn={true}>
       <div className='main'>
         <div className='w-11/12 mx-auto'>
           <div className='flex my-10'>
