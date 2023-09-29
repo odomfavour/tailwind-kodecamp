@@ -9,6 +9,6 @@ export const navLinks = [
 export const loggedIn = [
   { id: 1, name: 'Message', url: '/' },
   { id: 2, name: 'Notification', url: '/about' },
-  { id: 3, name: 'Profile', url: '/recruiter-info' },
+  { id: 3, name: 'Profile', url: '/profile' },
   { id: 4, name: 'Logout', url: '/blog' },
 ];
