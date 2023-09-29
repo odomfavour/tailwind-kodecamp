@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import RecruitersInfo from "./pages/RecruitersInfo";
+import Recruit from "./pages/Recruits";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignUp />} />
-      <Route path="/contact" element={<RecruitersInfo />} />
+      <Route path="/recruiter-info" element={<RecruitersInfo />} />
+      <Route path="/recruits" element={<Recruit />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }
