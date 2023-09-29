@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { useState } from "react";
 
-function Contact() {
+function RecruiterInfo() {
   const [name, setName] = useState("");
   const [companyName, setCompanyName] = useState("");
   const [companyType, setCompanyType] = useState("");
@@ -156,4 +156,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default RecruiterInfo;
