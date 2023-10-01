@@ -1,8 +1,9 @@
-import Header from "../components/Header";
+
+import LoggedInNavbar from "../components/LoggedInNavbar";
 import { LuTimerReset } from "react-icons/Lu"
-import symbols from "/src/assets/Icons/symbols.png"
-import timer from "/src/assets/Icons/timer.png"
-import locator from "/src/assets/Icons/locator.png"
+// import symbols from "/src/assets/Icons/symbols.png"
+// import timer from "/src/assets/Icons/timer.png"
+// import locator from "/src/assets/Icons/locator.png"
 import rect from "/src/assets/Images/Rect.png"
 import star from "/src/assets/Icons/star-light.png";
 import star2 from "/src/assets/Icons/star-grey.png";
@@ -15,7 +16,7 @@ const Developers = () => {
 
     return (
         <section>
-            <Header />
+            <LoggedInNavbar />
 
             <div className=" w-[70%] container mx-auto">
                 <button className="w-[178px] h-[48px] text-[#FFFFFF] text-[16px] font-bold  bg-[#2776EA] mt-[90px] rounded-t-md">Find a Candidate</button>

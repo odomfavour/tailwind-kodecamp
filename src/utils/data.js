@@ -25,20 +25,6 @@ import dev24 from "/src/assets/images/developer24.png";
 import dev25 from "/src/assets/images/developerx.png";
 
 export const navLinks = [
-<<<<<<< HEAD
-  { id: 1, name: 'Home', url: '/' },
-  { id: 2, name: 'Recruits', url: '/recruits' },
-  { id: 3, name: 'About Us', url: '/about' },
-  { id: 4, name: 'Contact', url: '/contact' },
-  { id: 5, name: 'Blog', url: '/blog' },
-];
-
-export const loggedIn = [
-  { id: 1, name: 'Message', url: '/' },
-  { id: 2, name: 'Notification', url: '/notification' },
-  { id: 3, name: 'Profile', url: '/profile' },
-  { id: 4, name: 'Logout', url: '/logout' },
-=======
   { id: 1, name: "Home", url: "/" },
   { id: 2, name: "Recruits", url: "/" },
   { id: 3, name: "About Us", url: "/about" },
@@ -51,7 +37,6 @@ export const loggedIn = [
   { id: 2, name: "Notification", url: "/about" },
   { id: 3, name: "Profile", url: "/contact" },
   { id: 4, name: "Logout", url: "/blog" },
->>>>>>> c8b2451 (update)
 ];
 
 export const devTeam = [
