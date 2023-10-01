@@ -1,12 +1,11 @@
 
 import LoggedInNavbar from "../components/LoggedInNavbar";
-import { LuTimerReset } from "react-icons/Lu"
-// import symbols from "/src/assets/Icons/symbols.png"
-// import timer from "/src/assets/Icons/timer.png"
-// import locator from "/src/assets/Icons/locator.png"
 import rect from "/src/assets/Images/Rect.png"
 import star from "/src/assets/Icons/star-light.png";
 import star2 from "/src/assets/Icons/star-grey.png";
+import timer from "/src/assets/Icons/timer.png";
+import symbols from "/src/assets/Icons/symbols.png";
+import locator from "/src/assets/Icons/locator.png";
 
 import { devTeam } from "../utils/data";
 
@@ -20,22 +19,42 @@ const Developers = () => {
 
             <div className=" w-[70%] container mx-auto">
                 <button className="w-[178px] h-[48px] text-[#FFFFFF] text-[16px] font-bold  bg-[#2776EA] mt-[90px] rounded-t-md">Find a Candidate</button>
-                <div className="md:w-[1083px] md:h-[88px] bg-[#F5F5F5] p-4">
-                    <select className="p-3 mr-9 w-[210px]">
-                        <option className="p-9">
-                            <LuTimerReset />Product Developer</option>
+                <div className="md:w-[1083px] md:h-[88px] bg-[#F5F5F5] p-4  md:flex gap-11 ">
 
-                    </select>
-                    <select className="p-3 mr-9 w-[210px]">
-                        <option className="p-9">
-                            <LuTimerReset />All</option>
+                    <div className="relative">
+                        <div className="absolute top-3">
+                            <img src={timer} />
+                        </div>
+                        <select className="px-6 py-4 w-[210px]">
+                            <option className="m-auto">
+                                Product Developer</option>
 
-                    </select>
-                    <select className="p-3 mr-9 w-[210px]">
-                        <option className="p-9">
-                            <LuTimerReset />Nigeria</option>
+                        </select>
+                    </div>
 
-                    </select>
+                    <div className="relative">
+                        <div className="absolute top-3 left-2">
+                            <img src={symbols} />
+                        </div>
+                        <select className="px-11 py-4  w-[210px]">
+                            <option className="p-9">
+                                All</option>
+
+                        </select>
+                    </div>
+
+                    <div className="relative">
+                        <div className="absolute top-3 left-2" >
+                            <img src={locator} />
+                        </div>
+                        <select className="px-7  py-4  w-[210px]">
+                            <option className="p-9">
+                                Nigeria</option>
+
+                        </select>
+                    </div>
+
+
                     <button className="bg-[#2776EA] w-[210px] h-[46px] ml-[60px]  text-[#FFFFFF]">Search</button>
 
                 </div>
