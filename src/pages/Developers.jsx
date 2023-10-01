@@ -102,10 +102,10 @@ const Developers = () => {
                         </div>
                     )
                 })}
-
-
-
             </div>
+
+            <button className="w-[227px] h-[64px] border-[#2776EA]">See More</button>
+
 
         </section>
     )
