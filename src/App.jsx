@@ -19,11 +19,11 @@ function App() {
       <Route path="/recruiter-info" element={<RecruitersInfo />} />
       <Route path="/recruits" element={<Recruit />} />
       <Route path="/contact" element={<Contact />} />
-      {/* <Route path="/developers" element={<Developers />} */}
+      <Route path="/developers" element={<Developers />} />
 
 
     </Routes>
-  );
+  )
 }
 
 export default App;
