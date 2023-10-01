@@ -68,19 +68,19 @@ const Developers = () => {
             <div className="flex flex-wrap gap-[170px] w-[70%] container mx-auto mt-9">
                 {devTeam.map((developers) => {
 
-                    const { id, Image, NAME } = developers
+                    const { id, Image, NAME, experience, LOCATION } = developers
 
 
                     return (
-                        <div key={id} className="w-[250px] mt-9">
+                        <div key={id} className="w-[250px]">
                             <div>
                                 <img src={Image} />
                             </div>
-                            <div className="w-[217px] mt-5 ">
+                            <div className="w-[250px] mt-5 ">
                                 <h3 className="text-[16px] font-bold text-[#00000] ">NAME: <span className=" text-[#2776EA]">{NAME}</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">YEARS OF EXPERIENCE:  <span className=" text-[#2776EA]">1</span></h3>
+                                <h3 className="text-[16px] font-bold text-[#00000] ">YEARS OF EXPERIENCE:  <span className=" text-[#2776EA]">{experience}</span></h3>
                                 <h3 className="text-[16px] font-bold text-[#00000] ">STRENGTH:  <span className=" text-[#2776EA]">FRONT-END</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">LOCATION:  <span className=" text-[#2776EA]">Lagos,Nigeria</span></h3>
+                                <h3 className="text-[16px] font-bold text-[#00000] ">LOCATION:  <span className=" text-[#2776EA]">{LOCATION}</span></h3>
 
                             </div>
                             <div className="flex m-auto gap-3 mt-3" >
@@ -104,7 +104,7 @@ const Developers = () => {
                 })}
             </div>
 
-            <button className="w-[227px] h-[64px] border-[#2776EA]">See More</button>
+            <button className="w-[227px] h-[64px] px-12 py-5 border-[#2776EA] border-2 flex m-auto mt-[90px] mb-7">See More</button>
 
 
         </section>
