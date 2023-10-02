@@ -258,3 +258,18 @@ export const devTeam = [
     Image: dev23,
   },
 ];
+
+export const tabTitles = [
+  {
+    id: 1,
+    title: "Personal Details",
+  },
+  {
+    id: 2,
+    title: "Experience",
+  },
+  {
+    id: 3,
+    title: "Personal Reviews",
+  },
+];
