@@ -1,4 +1,5 @@
 import { CandidateIcon, CareerIcon, JobIcon, LocationIcon, SearchRecruitIcon, TopRecruitIcon } from "../utils/icons"
+import TopRecruits from "./TopRecruits"
 
 const Hero = () => {
 	return (
@@ -114,6 +115,7 @@ const Hero = () => {
 				</div>
 
 			</div>
+			<TopRecruits />
 		</>
 	)
 }
