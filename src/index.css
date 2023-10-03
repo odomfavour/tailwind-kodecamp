@@ -21,3 +21,14 @@
     @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
   }
 }
+
+.not{
+  width: 100%;
+  max-width: 500px;
+  margin: 5em auto;
+  text-align: center;
+}
+
+.not img{
+  width: 100%;
+}
