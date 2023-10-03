@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+font-family: 'Inter';
+}
 
 @layer components {
   .btn-primary {
@@ -21,6 +27,25 @@
     @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
   }
 }
+
+
+.half-circle {
+
+  /* border: 20px solid #BDD5F9; */
+  border-bottom: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.active-tab {
+  border-radius: 1px; 
+  border-bottom: 3.56px solid #2776EA;
+  transition: width  0.3s ease-in-out; 
+}
+
+
 
 .not{
   width: 100%;
