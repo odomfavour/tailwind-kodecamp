@@ -46,3 +46,14 @@ font-family: 'Inter';
 }
 
 
+
+.not{
+  width: 100%;
+  max-width: 500px;
+  margin: 5em auto;
+  text-align: center;
+}
+
+.not img{
+  width: 100%;
+}

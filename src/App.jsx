@@ -10,7 +10,7 @@ import RecruitDetails from './pages/RecruitDetails';
 import RecruitersInfo from './pages/RecruitersInfo';
 import Developers from './pages/Developers';
 import Products from './pages/Products';
-
+import NotFound from './pages/NotFound';
 function App() {
   return (
     <Routes>
@@ -25,6 +25,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/developers' element={<Developers />} />
       <Route path='/products' element={<Products />} />
+      <Route path='*' element={<NotFound />} />
     </Routes>
   );
 }
