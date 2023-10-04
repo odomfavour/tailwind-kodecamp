@@ -15,6 +15,12 @@ export default {
       backgroundImage: {
         customBg: "url('/src/assets/images/heroBg.png')",
       },
+      backgroundImage: {
+        shortHero: "url('./src/assets/images/shortHero.png')"
+      },
+      aspectRatio: {
+        vision: 1,
+      }
     },
   },
   plugins: [],
