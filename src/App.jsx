@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import RecruitDetails from "./pages/RecruitDetails";
 import RecruitersInfo from "./pages/RecruitersInfo";
 import Developers from "./pages/Developers";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path="/recruits" element={<Recruit />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/developers" element={<Developers />} />
+      <Route path="/404" element={<NotFound/>} />
     </Routes>
   );
 }
