@@ -1,0 +1,40 @@
+import { useEffect } from 'react';
+import axios from '../api/axios';
+
+const Products = () => {
+  const getProducts = async () => {
+    try {
+      const response = await axios.get('/productss'); // Replace with your endpoint
+
+      // Check the HTTP status code
+      if (response.status === 200) {
+        // Request was successful
+        console.log(response.data);
+      } else {
+        // Handle other status codes
+        console.error(`Request failed with status code ${response.status}`);
+      }
+    } catch (error) {
+      if (error.response) {
+        // The request was made, but the server responded with an error status code
+        console.error(
+          `Request failed with status code ${error.response.status}`
+        );
+        console.error(error.response.data); // Error response data from the server
+      } else if (error.request) {
+        // The request was made, but no response was received
+        console.error('Request made, but no response received');
+      } else {
+        // Something else went wrong
+        console.error('Error:', error.message);
+      }
+    }
+  };
+  useEffect(() => {
+    getProducts();
+  }, []);
+
+  return <div>Products</div>;
+};
+
+export default Products;
