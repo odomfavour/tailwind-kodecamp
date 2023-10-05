@@ -68,7 +68,7 @@ const Developers = () => {
             <div className="flex flex-wrap   gap-y-11  md:gap-[140px] lg:gap-[170px] lg:w-[1/3] w-[80%] container mx-auto mt-9">
                 {devTeam.map((developers) => {
 
-                    const { id, Image, NAME, experience, LOCATION } = developers
+                    const { id, Image, Name, experience, Location } = developers
 
 
                     return (
@@ -77,10 +77,10 @@ const Developers = () => {
                                 <img src={Image} />
                             </div>
                             <div className="w-[250px] mt-5 ">
-                                <h3 className="text-[16px] font-bold text-[#00000] ">NAME: <span className=" text-[#2776EA]">{NAME}</span></h3>
+                                <h3 className="text-[16px] font-bold text-[#00000] ">NAME: <span className=" text-[#2776EA]">{Name}</span></h3>
                                 <h3 className="text-[16px] font-bold text-[#00000] ">YEARS OF EXPERIENCE:  <span className=" text-[#2776EA]">{experience}</span></h3>
                                 <h3 className="text-[16px] font-bold text-[#00000] ">STRENGTH:  <span className=" text-[#2776EA]">FRONT-END</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">LOCATION:  <span className=" text-[#2776EA]">{LOCATION}</span></h3>
+                                <h3 className="text-[16px] font-bold text-[#00000] ">LOCATION:  <span className=" text-[#2776EA]">{Location}</span></h3>
 
                             </div>
                             <div className="flex m-auto gap-3 mt-3" >
