@@ -104,7 +104,7 @@ const Developers = () => {
                 })}
             </div>
 
-            <button className="w-[227px] h-[64px]  py-5 justify-center border-[#2776EA] border-2 flex m-auto mt-[90px] mb-7">See More</button>
+            <button className="w-[227px] h-[64px]  py-5 justify-center border-[#2776EA] border-2 flex m-auto mt-[90px] mb-7 rounded-md">See More</button>
 
 
         </section>
