@@ -55,7 +55,7 @@ const Developers = () => {
                     </div>
 
 
-                    <button className="bg-[#2776EA] w-[210px] h-[46px]   md:ml-[60px]  text-[#FFFFFF]">Search</button>
+                    <button className="bg-[#2776EA] w-[210px] h-[46px]   md:ml-[60px]  text-[#FFFFFF] rounded-t rounded-bl">Search</button>
 
                 </div>
 
@@ -65,7 +65,7 @@ const Developers = () => {
                 <h2 className=" text-[24px] md:text-[48px] mt-4 md:mt-0 font-bold">Software  Developers</h2>
             </div>
 
-            <div className="flex flex-wrap  justify-between gap-y-11 lg:gap-[170px] lg:w-[70%] w-[80%] container mx-auto mt-9">
+            <div className="flex flex-wrap   gap-y-11  md:gap-[140px] lg:gap-[170px] lg:w-[1/3] w-[80%] container mx-auto mt-9">
                 {devTeam.map((developers) => {
 
                     const { id, Image, NAME, experience, LOCATION } = developers
@@ -97,7 +97,7 @@ const Developers = () => {
 
                             </div>
 
-                            <button className="w-[144px] bg-[#2776EA] h-[45px] mt-3 text-[#FFFF] font-bold text-[24px]">View</button>
+                            <button className="w-[144px] bg-[#2776EA] h-[45px] mt-3 text-[#FFFF] font-bold text-[24px] rounded-md">View</button>
 
                         </div>
                     )
