@@ -27,7 +27,7 @@ const Developers = () => {
                         </div>
                         <select className="px-6 py-4 w-[210px]">
                             <option className="m-auto">
-                                Product Developer.</option>
+                                Product Developer</option>
 
                         </select>
                     </div>
