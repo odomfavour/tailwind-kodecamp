@@ -6,6 +6,10 @@ export default {
       colors: {
         primaryBlue: '#2776EA',
       },
+
+      backgroundImage: {
+        'designers': "url('./assets/images/bg-designers.png')",
+      }
     },
   },
   plugins: [],
