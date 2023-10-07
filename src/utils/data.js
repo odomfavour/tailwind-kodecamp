@@ -1,11 +1,9 @@
-
 import ellipse1 from '../assets/images/Ellipse 41.svg'
 import ellipse2 from '../assets/images/Ellipse 50.svg'
 import ellipse3 from '../assets/images/Ellipse 55.svg'
 import ellipse4 from '../assets/images/Ellipse 67.svg'
 import ellipse5 from '../assets/images/Ellipse 68.svg'
 import ellipse6 from '../assets/images/Ellipse 69.svg'
-
 import dev from "/src/assets/images/developer.png";
 import dev1 from "/src/assets/images/developer1.png";
 import dev2 from "/src/assets/images/developer2.png";
@@ -42,11 +40,20 @@ import dev25 from "/src/assets/images/developerx.png";
 export const navLinks = [
   { id: 1, name: "Home", url: "/" },
   { id: 2, name: "Recruits", url: "/recruits" },
-  { id: 2, name: "Recruits", url: "/" },
   { id: 3, name: "About Us", url: "/about" },
   { id: 4, name: "Contact", url: "/contact" },
   { id: 5, name: "Blog", url: "/blog" },
-];
+]
+
+import smile from '../assets/images/smile.png';
+import manTrees from '../assets/images/man-trees.png';
+import manFold from '../assets/images/man-fold.png';
+import ladyHand from '../assets/images/lady-hand.png';
+import manSmile from '../assets/images/man-smile.png';
+import womanSerious from '../assets/images/woman-serious.png';
+import womanGlasses from '../assets/images/woman-glasses.png';
+import manComp from '../assets/images/man-comp.png';
+import womanGarage from '../assets/images/woman-garage.png';
 
 export const loggedIn = [
   { id: 1, name: "Message", url: "/" },
@@ -70,6 +77,7 @@ export const devTeam = [
     LOCATION: "Lagos, Nigeria",
     Image: dev,
   },
+
   {
     id: 3,
     NAME: "Musa Amoda",
@@ -285,10 +293,95 @@ export const tabTitles = [
 
 export const topRecruits = [
   { id: 1, name: 'Kolade Maya', track: 'Backend Developer', img: ellipse3 },
-  { id: 2, name: 
-  'Odunlami Oluwafemi', track: 'UI/UX', img: ellipse1 },
-  { id: 3, name: 'Bakare Aishat', track: 'Frontend Developer' , img: ellipse2 },
-  { id: 4, name: 'Temitope Fabian', track: 'CAD' , img: ellipse4 },
-  { id: 5, name: 'Daramola Adesanya', track: 'Product Management' , img: ellipse5},
-  { id: 6, name: 'Orji Clement', track: 'CAD' , img: ellipse6}
+  {
+    id: 2, name:
+      'Odunlami Oluwafemi', track: 'UI/UX', img: ellipse1
+  },
+  { id: 3, name: 'Bakare Aishat', track: 'Frontend Developer', img: ellipse2 },
+  { id: 4, name: 'Temitope Fabian', track: 'CAD', img: ellipse4 },
+  { id: 5, name: 'Daramola Adesanya', track: 'Product Management', img: ellipse5 },
+  { id: 6, name: 'Orji Clement', track: 'CAD', img: ellipse6 }
+];
+
+export const DesignersInfo = [
+  {
+    id: 1,
+    name: 'Adebambo Jadesola',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: smile,
+  },
+
+  {
+    id: 2,
+    name: 'Odunlami Oluwafemi',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: manTrees,
+  },
+
+  {
+    id: 3,
+    name: 'Musa Amoda',
+    years: '2',
+    strength: 'UX',
+    location: 'Osogbo, Nigeria',
+    src: manFold,
+  },
+
+  {
+    id: 4,
+    name: 'Mundun Weng',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Jalingo, Nigeria',
+    src: ladyHand,
+  },
+
+  {
+    id: 5,
+    name: 'Obi Chimeze',
+    years: '2',
+    strength: 'UI',
+    location: 'Owerri, Nigeria',
+    src: manSmile,
+  },
+
+  {
+    id: 6,
+    name: 'Aishat Muibudeen',
+    years: '1',
+    strength: 'UI',
+    location: 'Ibadan, Nigeria',
+    src: womanSerious,
+  },
+
+  {
+    id: 7,
+    name: 'Daramola Adesewa',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Abuja, Nigeria',
+    src: womanGlasses,
+  },
+
+  {
+    id: 8,
+    name: 'Israel Clement',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: manComp,
+  },
+
+  {
+    id: 9,
+    name: 'Bakare Shakiroh',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Abuja, Nigeria',
+    src: womanGarage,
+  },
 ];

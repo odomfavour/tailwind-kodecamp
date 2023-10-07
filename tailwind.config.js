@@ -20,6 +20,9 @@ export default {
       },
       aspectRatio: {
         vision: 1,
+
+      backgroundImage: {
+        'designers': "url('./assets/images/bg-designers.png')",
       }
     },
   },

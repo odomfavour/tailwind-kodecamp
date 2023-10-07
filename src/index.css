@@ -56,4 +56,8 @@ font-family: 'Inter';
 
 .not img{
   width: 100%;
+
+  .find {
+    @apply p-1 text-[#555] border-[#555] border bg-white flex gap-2 items-center
+  }
 }

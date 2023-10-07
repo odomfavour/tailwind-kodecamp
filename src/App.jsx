@@ -12,6 +12,8 @@ import Developers from './pages/Developers';
 import Products from './pages/Products';
 import NotFound from './pages/NotFound';
 import SingleProduct from './pages/SingleProduct';
+import Designers from './pages/Designers';
+
 function App() {
   return (
     <Routes>
@@ -28,6 +30,7 @@ function App() {
       <Route path='/products' element={<Products />} />
       <Route path='/products/:id' element={<SingleProduct />} />
       <Route path='*' element={<NotFound />} />
+      <Route path='/designers' element={< Designers />} />
     </Routes>
   );
 }
