@@ -23,7 +23,7 @@ export default {
 
       backgroundImage: {
         'designers': "url('./assets/images/bg-designers.png')",
-      }
+      },
     },
   },
   plugins: [],
