@@ -56,17 +56,6 @@ import womanSerious from '../assets/images/woman-serious.png';
 import womanGlasses from '../assets/images/woman-glasses.png';
 import manComp from '../assets/images/man-comp.png';
 import womanGarage from '../assets/images/woman-garage.png';
-import smile from '../assets/images/smile.png';
-import manTrees from '../assets/images/man-trees.png';
-import manFold from '../assets/images/man-fold.png';
-import ladyHand from '../assets/images/lady-hand.png';
-import manSmile from '../assets/images/man-smile.png';
-import womanSerious from '../assets/images/woman-serious.png';
-import womanGlasses from '../assets/images/woman-glasses.png';
-import manComp from '../assets/images/man-comp.png';
-import womanGarage from '../assets/images/woman-garage.png';
-
-
 
 export const loggedIn = [
   { id: 1, name: "Message", url: "/" },
