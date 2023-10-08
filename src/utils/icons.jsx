@@ -427,4 +427,4 @@ export const EmptyStarIcon = () => {
 
   )
 }
-}
+
