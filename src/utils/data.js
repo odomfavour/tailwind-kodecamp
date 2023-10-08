@@ -39,12 +39,13 @@ import dev25 from "/src/assets/images/developerx.png";
 
 
 export const navLinks = [
-  { id: 1, name: "Home", url: "/" },
+  { id: 1, name: 'Home', url: '/' },
+  { id: 2, name: 'Recruits', url: '/recruits' },
   { id: 2, name: "Recruits", url: "/designers" },
   { id: 3, name: "About Us", url: "/about" },
   { id: 4, name: "Contact", url: "/contact" },
   { id: 5, name: "Blog", url: "/blog" },
-]
+];
 
 import smile from '../assets/images/smile.png';
 import manTrees from '../assets/images/man-trees.png';
@@ -55,6 +56,17 @@ import womanSerious from '../assets/images/woman-serious.png';
 import womanGlasses from '../assets/images/woman-glasses.png';
 import manComp from '../assets/images/man-comp.png';
 import womanGarage from '../assets/images/woman-garage.png';
+import smile from '../assets/images/smile.png';
+import manTrees from '../assets/images/man-trees.png';
+import manFold from '../assets/images/man-fold.png';
+import ladyHand from '../assets/images/lady-hand.png';
+import manSmile from '../assets/images/man-smile.png';
+import womanSerious from '../assets/images/woman-serious.png';
+import womanGlasses from '../assets/images/woman-glasses.png';
+import manComp from '../assets/images/man-comp.png';
+import womanGarage from '../assets/images/woman-garage.png';
+
+
 
 export const loggedIn = [
   { id: 1, name: "Message", url: "/" },
