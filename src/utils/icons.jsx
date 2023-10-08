@@ -403,3 +403,28 @@ export const TwitterICon = ({ className }) => {
     </svg>
   );
 };
+export const CaretDownIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5 6L10 11L15 6L17 7L10 14L3 7L5 6Z" fill="#555555" />
+    </svg>
+  )
+}
+
+export const StarIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19.739 7.65517H12.2717L9.95644 0L7.64122 7.65517H0.173828L6.20644 12.3793L3.92383 20L9.95644 15.2759L15.989 20L13.6738 12.3448L19.739 7.65517Z" fill="#FF9A00" />
+    </svg>
+  )
+}
+
+export const EmptyStarIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11.7276 7.87229L11.8888 8.40517H12.4455H17.7168L13.3889 11.7515L12.9802 12.0675L13.1298 12.5619L14.7586 17.9477L10.5927 14.6854L10.1303 14.3233L9.66785 14.6854L5.49326 17.9545L7.09873 12.5945L7.24555 12.1043L6.84268 11.7888L2.52184 8.40517H7.81505H8.37177L8.53293 7.87229L10.1303 2.59078L11.7276 7.87229Z" fill="white" stroke="black" strokeWidth="1.5" />
+    </svg>
+
+  )
+}
+}

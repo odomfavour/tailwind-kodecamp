@@ -23,9 +23,10 @@ font-family: 'Inter';
   .input-primary {
     @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
   }
-  .input-secondary {
-    @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
-  }
+}
+
+.input-secondary {
+  @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
 }
 
 
@@ -56,4 +57,16 @@ font-family: 'Inter';
 
 .not img{
   width: 100%;
+  .btn-designer {
+    @apply py-1 md:px-12 px-6 mt-4 bg-[#2772EA] text-white font-semibold rounded hover:bg-blue-700;
+  }
+
+  .find {
+    @apply p-1 text-[#555] border-[#555] border bg-white flex gap-2 items-center
+  }
+}
+
+.btw {
+  background: (rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(${bgDesigners});
 }
