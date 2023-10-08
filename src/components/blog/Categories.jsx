@@ -3,7 +3,7 @@ import categoriesCardImage from "../../assets/images/business-calculation.png";
 
 const Categories = () => {
   return (
-    <div className="flex gap-x-8 overflow-x-scroll overflow-y-hidden scrollbar-hide">
+    <div className="flex gap-10 py-4 overflow-x-auto">
       <figure className=" hover:bg-[#D4D4D4] bg-white transition-all rounded-[10px]">
         <div className="w-[216px] h-[192.593px] rounded-[10px] mb-4 md:mb-6">
           <img
