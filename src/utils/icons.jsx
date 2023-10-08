@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export const LogoIcon = () => {
   return (
     <svg
@@ -427,4 +428,4 @@ export const EmptyStarIcon = () => {
 
   )
 }
-}
+
