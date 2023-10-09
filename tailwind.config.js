@@ -14,14 +14,15 @@ export default {
       },
       backgroundImage: {
         customBg: "url('/src/assets/images/heroBg.png')",
-      },
-      backgroundImage: {
-        shortHero: "url('./src/assets/images/shortHero.png')"
+        shortHero: "url('./src/assets/images/shortHero.png')",
       },
       aspectRatio: {
         vision: 1,
-      }
+
+      backgroundImage: {
+        'designers': "url('./assets/images/bg-designers.png')",
+      },
     },
   },
   plugins: [],
-};
+}};
