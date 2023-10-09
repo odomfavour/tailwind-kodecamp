@@ -45,7 +45,7 @@ const Developers = () => {
             </select>
           </div>
 
-          <button className='bg-[#2776EA] w-[210px] h-[46px]   md:ml-[60px]  text-[#FFFFFF]'>
+          <button className='bg-[#2776EA] w-[210px] h-[46px]   md:ml-[60px]  text-[#FFFFFF] rounded-t rounded-bl'>
             Search
           </button>
         </div>
@@ -57,33 +57,9 @@ const Developers = () => {
         </h2>
       </div>
 
-                        </select>
-                    </div>
-
-                    <div className="relative">
-                        <div className="absolute top-3 left-2">
-                            <img src={symbols} />
-                        </div>
-                        <select className="px-11 py-4  w-[210px]">
-                            <option className="p-9">
-                                All</option>
-
-                        </select>
-                    </div>
-
-                    <div className="relative">
-                        <div className="absolute top-3 left-2" >
-                            <img src={locator} />
-                        </div>
-                        <select className="px-7  py-4  w-[210px]">
-                            <option className="p-9">
-                                Nigeria</option>
-
-                        </select>
-                    </div>
-
-
-                    <button className="bg-[#2776EA] w-[210px] h-[46px]   md:ml-[60px]  text-[#FFFFFF] rounded-t rounded-bl">Search</button>
+      <div className='flex flex-wrap   gap-y-11  md:gap-[140px] lg:gap-[170px] lg:w-[1/3] w-[80%] container mx-auto mt-9'>
+        {devTeam.map((developers) => {
+          const { id, Image, Name, experience, Location } = developers;
 
           return (
             <div key={id} className='w-[250px]'>
@@ -92,7 +68,7 @@ const Developers = () => {
               </div>
               <div className='w-[250px] mt-5 '>
                 <h3 className='text-[16px] font-bold text-[#00000] '>
-                  NAME: <span className=' text-[#2776EA]'>{NAME}</span>
+                  NAME: <span className=' text-[#2776EA]'>{Name}</span>
                 </h3>
                 <h3 className='text-[16px] font-bold text-[#00000] '>
                   YEARS OF EXPERIENCE:{' '}
@@ -102,7 +78,7 @@ const Developers = () => {
                   STRENGTH: <span className=' text-[#2776EA]'>FRONT-END</span>
                 </h3>
                 <h3 className='text-[16px] font-bold text-[#00000] '>
-                  LOCATION: <span className=' text-[#2776EA]'>{LOCATION}</span>
+                  LOCATION: <span className=' text-[#2776EA]'>{Location}</span>
                 </h3>
               </div>
               <div className='flex m-auto gap-3 mt-3'>
@@ -118,7 +94,7 @@ const Developers = () => {
                 </div>
               </div>
 
-              <button className='w-[144px] bg-[#2776EA] h-[45px] mt-3 text-[#FFFF] font-bold text-[24px]'>
+              <button className='w-[144px] bg-[#2776EA] h-[45px] mt-3 text-[#FFFF] font-bold text-[24px] rounded-md'>
                 View
               </button>
             </div>
@@ -126,49 +102,10 @@ const Developers = () => {
         })}
       </div>
 
-            <div className="flex flex-wrap   gap-y-11  md:gap-[140px] lg:gap-[170px] lg:w-[1/3] w-[80%] container mx-auto mt-9">
-                {devTeam.map((developers) => {
-
-                    const { id, Image, Name, experience, Location } = developers
-
-
-                    return (
-                        <div key={id} className="w-[250px]">
-                            <div>
-                                <img src={Image} />
-                            </div>
-                            <div className="w-[250px] mt-5 ">
-                                <h3 className="text-[16px] font-bold text-[#00000] ">NAME: <span className=" text-[#2776EA]">{Name}</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">YEARS OF EXPERIENCE:  <span className=" text-[#2776EA]">{experience}</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">STRENGTH:  <span className=" text-[#2776EA]">FRONT-END</span></h3>
-                                <h3 className="text-[16px] font-bold text-[#00000] ">LOCATION:  <span className=" text-[#2776EA]">{Location}</span></h3>
-
-                            </div>
-                            <div className="flex m-auto gap-3 mt-3" >
-                                <div className="flex">
-                                    <img className="w-[20px] h-[20px]" src={star} />
-                                    <img className="w-[20px] h-[20px]" src={star} />
-                                    <img className="w-[20px] h-[20px]" src={star} />
-                                    <img className="w-[20px] h-[20px]" src={star} />
-                                    <img className="w-[20px] h-[20px]" src={star2} />
-                                </div>
-                                <div>
-                                    <p>[11]</p>
-                                </div>
-
-                            </div>
-
-                            <button className="w-[144px] bg-[#2776EA] h-[45px] mt-3 text-[#FFFF] font-bold text-[24px] rounded-md">View</button>
-
-                        </div>
-                    )
-                })}
-            </div>
-
-            <button className="w-[227px] h-[64px]  py-5 justify-center border-[#2776EA] border-2 flex m-auto mt-[90px] mb-7 rounded-md">See More</button>
-
-
-        </section>
-    )
-}
+      <button className='w-[227px] h-[64px]  py-5 justify-center border-[#2776EA] border-2 flex m-auto mt-[90px] mb-7 rounded-md'>
+        See More
+      </button>
+    </section>
+  );
+};
 export default Developers;
