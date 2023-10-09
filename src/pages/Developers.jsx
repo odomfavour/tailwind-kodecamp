@@ -1,5 +1,5 @@
 import LoggedInNavbar from '../components/LoggedInNavbar';
-import rect from '../assets/images/rect.png';
+// import rect from '../assets/images/rect.png';
 import star from '../assets/Icons/star-light.png';
 import star2 from '../assets/Icons/star-grey.png';
 import timer from '../assets/Icons/timer.png';
@@ -51,7 +51,7 @@ const Developers = () => {
         </div>
       </div>
       <div className='flex w-[80%] container mx-auto mt-7 gap-4'>
-        <img className='w-[10px] h-[48px] mt-3' src={rect} />
+        {/* <img className='w-[10px] h-[48px] mt-3' src={rect} /> */}
         <h2 className=' text-[24px] md:text-[48px] mt-4 md:mt-0 font-bold'>
           Software Developers
         </h2>
