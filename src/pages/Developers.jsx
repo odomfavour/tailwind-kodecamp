@@ -1,5 +1,5 @@
 import LoggedInNavbar from '../components/LoggedInNavbar';
-import rect from '../assets/Images/Rect.png';
+import rect from '../assets/Images/rect.png';
 import star from '../assets/Icons/star-light.png';
 import star2 from '../assets/Icons/star-grey.png';
 import timer from '../assets/Icons/timer.png';
