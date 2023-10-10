@@ -40,7 +40,7 @@ const Login = () => {
         </form>
         <section>
           <p className='text-center mt-3'>
-            <Link>Forgot Password</Link>
+            <Link to="/forgotPassword"> Forgot Password</Link>
           </p>
           <div className='flex justify-between items-center lg:gap-10 gap-5 w-3/4 mx-auto lg:my-14 my-10'>
             <div className='lg:w-1/2 w-3/4 border-t-[0.5px] border-[#808080] ' />
