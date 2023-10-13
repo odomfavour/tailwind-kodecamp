@@ -1,6 +1,5 @@
 import password from "../assets/images/password.png"
 import logo from "../assets/images/logo.png"
-import Back from "../assets/images/back.png"
 import { Link } from 'react-router-dom';
 const ForgotPassword = () => {
   return (
@@ -12,7 +11,7 @@ const ForgotPassword = () => {
         <div className="flex flex-col my-0 mx-auto w-[75%] text-[#555555]">
           <div className="flex flex-col justify-center items-center p-5" >
             <img src={password} alt="thinking" className=" w-[10rem]" />
-            <p className="text-center "> Don't worry, simply enter your email address and your new password, we will assist you in resetting your password.</p>
+            <p className="text-center "> Don/'t worry, simply enter your email address and your new password, we will assist you in resetting your password.</p>
           </div>
         <form>
           <div className="mb-4">
@@ -52,7 +51,7 @@ const ForgotPassword = () => {
         </div>
        <div className=" flex w-[55%] justify-between pt-5 font-inter font-[400]">
           <div>< Link to="/login" className="text-blue-600 font-inter font-[600] flex"> Back to Sign in</Link></div>
-          <div>Don't have an account? <Link to="/signup" className="text-blue-600 font-inter font-[600]"> Sign up</Link></div>
+          <div> Don't have an account? <Link to="/signup" className="text-blue-600 font-inter font-[600]"> Sign up</Link></div>
         </div>
     </div>
     </>
