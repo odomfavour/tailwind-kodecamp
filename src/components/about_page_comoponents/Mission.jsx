@@ -19,7 +19,7 @@ const Mission = () => {
           needs.
         </p>
       </div>
-      <div className=" p-5 w-11/12 lg:w-1/3 relative">
+      <div className=" p-5 w-11/12 lg:w-1/3 relative mb-20 mt-10">
          <div className="absolute -bottom-5 -left-10 -z-10 ">
         <img className="" src={circleSmall} alt="" />
       </div>
