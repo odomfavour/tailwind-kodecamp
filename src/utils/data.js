@@ -56,6 +56,15 @@ import womanGlasses from '../assets/images/woman-glasses.png';
 import manComp from '../assets/images/man-comp.png';
 import womanGarage from '../assets/images/woman-garage.png';
 
+import TeamOne from '../assets/images/Team1.png';
+import TeamTwo from '../assets/images/Team2.png';
+import TeamThree from '../assets/images/Team3.png';
+import TeamFour from '../assets/images/Team4.png';
+import TeamFive from '../assets/images/Team5.png';
+import TeamSix from '../assets/images/Team6.png';
+import TeamSeven from '../assets/images/Team7.png';
+import TeamEight from '../assets/images/Team8.png';
+
 export const loggedIn = [
   { id: 1, name: 'Message', url: '/' },
   { id: 2, name: 'Notification', url: '/about' },
@@ -393,3 +402,54 @@ export const DesignersInfo = [
     src: womanGarage,
   },
 ];
+
+export const TeamMembers = [
+  {
+    id: 1,
+    name: 'Helen Nkem',
+    title: 'CEO',
+    src: TeamOne,
+  },
+  {
+    id: 2,
+    name: 'John Smith',
+    title: 'Talent Recruiter',
+    src: TeamTwo,
+  },
+  {
+    id: 3,
+    name: 'Mary Ade',
+    title: 'Design Lead',
+    src: TeamThree,
+  },
+  {
+    id: 4,
+    name: 'Samuel Ugo',
+    title: 'Graphic Designer',
+    src: TeamFour,
+  },
+  {
+    id: 5,
+    name: 'Adeleye Kitan',
+    title: 'General Manager',
+    src: TeamFive,
+  },
+  {
+    id: 6,
+    name: 'Franklin Oscar',
+    title: 'Ass General Manager',
+    src: TeamSix,
+  },
+  {
+    id: 7,
+    name: 'Adebiyi Maya',
+    title: 'Supervisor',
+    src: TeamSeven,
+  },
+  {
+    id: 8,
+    name: 'Franklin Oscar',
+    title: 'Secretary',
+    src: TeamEight,
+  },
+]
