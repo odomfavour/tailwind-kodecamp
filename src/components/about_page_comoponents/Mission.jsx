@@ -1,6 +1,7 @@
 import mission from "../../assets/images/mission.png";
 import circleSmall from '../../assets/images/circle-small.png';
 
+
 const Mission = () => {
   return (
     <div className="w-full h-fit pb-16 lg:pb-0  lg:h-[30rem] flex flex-col-reverse lg:flex-row items-center justify-center">
@@ -19,11 +20,12 @@ const Mission = () => {
           needs.
         </p>
       </div>
-      <div className=" p-5 w-11/12 lg:w-1/3 relative mb-20 mt-10">
-         <div className="absolute -bottom-5 -left-10 -z-10 ">
+      <div className=" p-5 w-11/12 lg:w-1/3 relative ">
+         <div className="absolute -bottom-2 -left-8 -z-10 ">
         <img className="" src={circleSmall} alt="" />
       </div>
-        <img className="w-full aspect-vision " src={mission} alt="" />  
+        <img className="w-full" src={mission} alt=""/>  
+        
       </div>
     </div>
   );

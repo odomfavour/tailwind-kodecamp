@@ -16,11 +16,11 @@ const About = () => {
       {/* <AuthHeader />  */}
       <MainLayout isLoggedIn={true}>
         <div
-        className='w-screen'>
+        className='w-full'>
           <ShortHero text='Who we are' />
           <AboutKodecamp/>
           <Vision/>
-          <Mission/>
+          <Mission/> 
           <Team/>
         </div>
       </MainLayout>
