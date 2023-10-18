@@ -51,230 +51,241 @@ import msgAdewole from "../assets/images/msg-Adewole.png";
 
 
 export const navLinks = [
-  { id: 1, name: "Home", url: "/" },
-  { id: 2, name: "Recruits", url: "/recruits" },
-  { id: 2, name: "Recruits", url: "/" },
-  { id: 3, name: "About Us", url: "/about" },
-  { id: 4, name: "Contact", url: "/contact" },
-  { id: 5, name: "Blog", url: "/blog" },
+  { id: 1, name: 'Home', url: '/' },
+  { id: 2, name: 'Recruits', url: '/recruits' },
+  { id: 2, name: 'Recruits', url: '/designers' },
+  { id: 3, name: 'About Us', url: '/about' },
+  { id: 4, name: 'Contact', url: '/contact' },
+  { id: 5, name: 'Blog', url: '/blog' },
 ];
 
+import smile from '../assets/images/smile.png';
+import manTrees from '../assets/images/man-trees.png';
+import manFold from '../assets/images/man-fold.png';
+import ladyHand from '../assets/images/lady-hand.png';
+import manSmile from '../assets/images/man-smile.png';
+import womanSerious from '../assets/images/woman-serious.png';
+import womanGlasses from '../assets/images/woman-glasses.png';
+import manComp from '../assets/images/man-comp.png';
+import womanGarage from '../assets/images/woman-garage.png';
+
 export const loggedIn = [
-  { id: 1, name: "Message", url: "/" },
-  { id: 2, name: "Notification", url: "/about" },
-  { id: 3, name: "Profile", url: "/contact" },
-  { id: 4, name: "Logout", url: "/blog" },
+  { id: 1, name: 'Message', url: '/' },
+  { id: 2, name: 'Notification', url: '/about' },
+  { id: 3, name: 'Profile', url: '/contact' },
+  { id: 4, name: 'Logout', url: '/blog' },
 ];
 
 export const devTeam = [
   {
     id: 1,
-    NAME: "Adebambo Jadesola",
+    Name: 'Adebambo Jadesola',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev16,
   },
   {
     id: 2,
-    NAME: "Odunlami Oluwafemi",
+    Name: 'Odunlami Oluwafemi',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev,
   },
+
   {
     id: 3,
-    NAME: "Musa Amoda",
+    Name: 'Musa Amoda',
     experience: 2,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev12,
   },
   {
     id: 4,
-    NAME: "Mundung Weng",
+    Name: 'Mundung Weng',
     experience: 1,
-    LOCATION: "Jalingo, Nigeria",
+    Location: 'Jalingo, Nigeria',
     Image: dev18,
   },
   {
     id: 5,
-    NAME: "Obi Chimeze",
+    Name: 'Obi Chimeze',
     experience: 2,
-    LOCATION: "Owerri, Nigeria",
+    Location: 'Owerri, Nigeria',
     Image: dev3,
   },
   {
     id: 6,
-    NAME: "Aishat Muibudeen",
+    Name: 'Aishat Muibudeen',
     experience: 1,
-    LOCATION: "Ibadan, Nigeria",
+    Location: 'Ibadan, Nigeria',
     Image: dev8,
   },
   {
     id: 7,
-    NAME: "Daramola Adesewa",
+    Name: 'Daramola Adesewa',
     experience: 1,
-    LOCATION: "Abuja, Nigeria",
+    Location: 'Abuja, Nigeria',
     Image: dev5,
   },
   {
     id: 8,
-    NAME: "Isreal Clement",
+    Name: 'Isreal Clement',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev2,
   },
   {
     id: 9,
-    NAME: "Bakare Shakiroh",
+    Name: 'Bakare Shakiroh',
     experience: 1,
-    LOCATION: "Abuja, Nigeria",
+    Location: 'Abuja, Nigeria',
     Image: dev7,
   },
   {
     id: 10,
-    NAME: "Adewole Michael",
+    Name: 'Adewole Michael',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev9,
   },
   {
     id: 11,
-    NAME: "Kolade Oulwatosin",
+    Name: 'Kolade Oulwatosin',
     experience: 1,
-    LOCATION: "Benin-city, Nigeria",
+    Location: 'Benin-city, Nigeria',
     Image: dev10,
   },
   {
     id: 12,
-    NAME: "Garba Abigail",
+    Name: 'Garba Abigail',
     experience: 2,
-    LOCATION: "Auchi, Nigeria",
+    Location: 'Auchi, Nigeria',
     Image: dev11,
   },
   {
     id: 13,
-    NAME: "Egbe Ethan",
+    Name: 'Egbe Ethan',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev1,
   },
   {
     id: 14,
-    NAME: "Soronnadi Lois",
+    Name: 'Soronnadi Lois',
     experience: 1,
-    LOCATION: "Asaba, Nigeria",
+    Location: 'Asaba, Nigeria',
     Image: dev4,
   },
   {
     id: 15,
-    NAME: "Fiiwe Barisanem",
+    Name: 'Fiiwe Barisanem',
     experience: 3,
-    LOCATION: "PH-city, Nigeria ",
+    Location: 'PH-city, Nigeria ',
     Image: dev24,
   },
   {
     id: 16,
-    NAME: "Amadi Augustina",
+    Name: 'Amadi Augustina',
     experience: 2,
-    LOCATION: "Aba, Nigeria",
+    Location: 'Aba, Nigeria',
     Image: dev25,
   },
   {
     id: 17,
-    NAME: "Abubakar Mistura",
+    Name: 'Abubakar Mistura',
     experience: 3,
-    LOCATION: "Kano, Nigeria",
+    Location: 'Kano, Nigeria',
     Image: dev14,
   },
   {
     id: 18,
-    NAME: "Ayodele Rafael",
+    Name: 'Ayodele Rafael',
     experience: 2,
-    LOCATION: "Akure, Nigeria",
+    Location: 'Akure, Nigeria',
     Image: dev15,
   },
   {
     id: 19,
-    NAME: "Atinyoh Imokha",
+    Name: 'Atinyoh Imokha',
     experience: 1,
-    LOCATION: "Lafia, Nigeria",
+    Location: 'Lafia, Nigeria',
     Image: dev6,
   },
   {
     id: 20,
-    NAME: "Charles Imoh",
+    Name: 'Charles Imoh',
     experience: 2,
-    LOCATION: "Makurdi, Nigeria",
+    Location: 'Makurdi, Nigeria',
     Image: dev19,
   },
   {
     id: 21,
-    NAME: "Park Lu Chen",
+    Name: 'Park Lu Chen',
     experience: 3,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev30,
   },
   {
     id: 19,
-    NAME: "Idris Matilda",
+    Name: 'Idris Matilda',
     experience: 2,
-    LOCATION: "Abeokuta, Nigeria",
+    Location: 'Abeokuta, Nigeria',
     Image: dev29,
   },
   {
     id: 20,
-    NAME: "Coker Thompson",
+    Name: 'Coker Thompson',
     experience: 3,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev31,
   },
   {
     id: 21,
-    NAME: "Okonkwo Kenneth",
+    Name: 'Okonkwo Kenneth',
     experience: 2,
-    LOCATION: "Uyo, Nigeria",
+    Location: 'Uyo, Nigeria',
     Image: dev26,
   },
   {
-    id: 19,
-    NAME: "Bayero Funmilola",
+    id: 22,
+    Name: 'Bayero Funmilola',
     experience: 2,
-    LOCATION: "Sokoto, Nigeria",
+    Location: 'Sokoto, Nigeria',
     Image: dev28,
   },
   {
-    id: 20,
-    NAME: "Adeleke Oyindamola",
+    id: 23,
+    Name: 'Adeleke Oyindamola',
     experience: 1,
-    LOCATION: "Lagos, Nigeria",
+    Location: 'Lagos, Nigeria',
     Image: dev27,
   },
   {
     id: 21,
-    NAME: "Shuaib Adebimpe",
+    Name: 'Shuaib Adebimpe',
     experience: 3,
-    LOCATION: "Ilorin, Nigeria",
+    Location: 'Ilorin, Nigeria',
     Image: dev20,
   },
   {
     id: 22,
-    NAME: "Abdullahi Danlad",
+    Name: 'Abdullahi Danlad',
     experience: 3,
-    LOCATION: "Zaria, Kaduna",
+    Location: 'Zaria, Kaduna',
     Image: dev22,
   },
   {
     id: 23,
-    NAME: "Moses Trabaye",
+    Name: 'Moses Trabaye',
     experience: 1,
-    LOCATION: "Bauchi, Nigeria",
+    Location: 'Bauchi, Nigeria',
     Image: dev21,
   },
   {
     id: 23,
-    NAME: "Nuel Adepoju",
+    Name: 'Nuel Adepoju',
     experience: 2,
-    LOCATION: "Ijebu-ode, Nigeria",
+    Location: 'Ijebu-ode, Nigeria',
     Image: dev23,
   },
 ];
@@ -282,28 +293,118 @@ export const devTeam = [
 export const tabTitles = [
   {
     id: 1,
-    title: "Personal Details",
+    title: 'Personal Details',
   },
   {
     id: 2,
-    title: "Experience",
+    title: 'Experience',
   },
   {
     id: 3,
-    title: "Personal Reviews",
+    title: 'Personal Reviews',
   },
 ];
 
 export const topRecruits = [
   { id: 1, name: 'Kolade Maya', track: 'Backend Developer', img: ellipse3 },
   {
-    id: 2, name:
-      'Odunlami Oluwafemi', track: 'UI/UX', img: ellipse1
+    id: 2,
+    name: 'Odunlami Oluwafemi',
+    track: 'UI/UX',
+    img: ellipse1,
   },
   { id: 3, name: 'Bakare Aishat', track: 'Frontend Developer', img: ellipse2 },
   { id: 4, name: 'Temitope Fabian', track: 'CAD', img: ellipse4 },
-  { id: 5, name: 'Daramola Adesanya', track: 'Product Management', img: ellipse5 },
-  { id: 6, name: 'Orji Clement', track: 'CAD', img: ellipse6 }
+  {
+    id: 5,
+    name: 'Daramola Adesanya',
+    track: 'Product Management',
+    img: ellipse5,
+  },
+  { id: 6, name: 'Orji Clement', track: 'CAD', img: ellipse6 },
+];
+
+export const DesignersInfo = [
+  {
+    id: 1,
+    name: 'Adebambo Jadesola',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: smile,
+  },
+
+  {
+    id: 2,
+    name: 'Odunlami Oluwafemi',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: manTrees,
+  },
+
+  {
+    id: 3,
+    name: 'Musa Amoda',
+    years: '2',
+    strength: 'UX',
+    location: 'Osogbo, Nigeria',
+    src: manFold,
+  },
+
+  {
+    id: 4,
+    name: 'Mundun Weng',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Jalingo, Nigeria',
+    src: ladyHand,
+  },
+
+  {
+    id: 5,
+    name: 'Obi Chimeze',
+    years: '2',
+    strength: 'UI',
+    location: 'Owerri, Nigeria',
+    src: manSmile,
+  },
+
+  {
+    id: 6,
+    name: 'Aishat Muibudeen',
+    years: '1',
+    strength: 'UI',
+    location: 'Ibadan, Nigeria',
+    src: womanSerious,
+  },
+
+  {
+    id: 7,
+    name: 'Daramola Adesewa',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Abuja, Nigeria',
+    src: womanGlasses,
+  },
+
+  {
+    id: 8,
+    name: 'Israel Clement',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Lagos, Nigeria',
+    src: manComp,
+  },
+
+  {
+    id: 9,
+    name: 'Bakare Shakiroh',
+    years: '1',
+    strength: 'UI/UX',
+    location: 'Abuja, Nigeria',
+    src: womanGarage,
+  },
 ];
 
 const specificTime = moment().set({ hour: 9, minute: 15, second: 0, millisecond: 0 });

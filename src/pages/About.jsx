@@ -13,10 +13,11 @@ const About = () => {
     <section>
       {/* <AuthHeader />  */}
       <MainLayout isLoggedIn={true}>
-        <div className="w-screen">
-          <ShortHero text="Who we are" />
-          <AboutKodecamp />
-          <Vision />
+        <div
+        className='w-full '>
+          <ShortHero text='Who we are' />
+          <AboutKodecamp/>
+          <Vision/>
         </div>
       </MainLayout>
     </section>

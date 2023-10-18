@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-font-family: 'Inter';
+body {
+  font-family: 'Inter';
 }
 
 @layer components {
@@ -23,14 +22,13 @@ font-family: 'Inter';
   .input-primary {
     @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
   }
-  .input-secondary {
-    @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
-  }
 }
 
+.input-secondary {
+  @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full py-[15px] px-5 outline-none;
+}
 
 .half-circle {
-
   /* border: 20px solid #BDD5F9; */
   border-bottom: 0;
 
@@ -40,9 +38,30 @@ font-family: 'Inter';
 }
 
 .active-tab {
-  border-radius: 1px; 
-  border-bottom: 3.56px solid #2776EA;
-  transition: width  0.3s ease-in-out; 
+  border-radius: 1px;
+  border-bottom: 3.56px solid #2776ea;
+  transition: width 0.3s ease-in-out;
 }
 
+.not {
+  width: 100%;
+  max-width: 500px;
+  margin: 5em auto;
+  text-align: center;
+}
 
+.not img {
+  width: 100%;
+}
+
+.btn-designer {
+  @apply py-1 md:px-12 px-6 mt-4 bg-[#2772EA] text-white font-semibold rounded hover:bg-blue-700;
+}
+
+.find {
+  @apply p-1 text-[#555] border-[#555] border bg-white flex gap-2 items-center;
+}
+
+.btw {
+  background: (rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bgDesigners});
+}
