@@ -36,7 +36,7 @@ import dev28 from "/src/assets/images/developer28.png";
 import dev29 from "/src/assets/images/developer29.png";
 import dev30 from "/src/assets/images/developer30.png";
 import dev31 from "/src/assets/images/developer31.png";
-import dev25 from "/src/assets/images/developerx.png";
+import dev25 from "/src/assets/images/developerX.png";
 
 import msgOdunlami from "../assets/images/msg-Odunlami.png";
 import msgAishat from "../assets/images/msg-Aishat.png";
