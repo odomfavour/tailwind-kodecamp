@@ -1,4 +1,4 @@
-
+import moment from 'moment';
 import ellipse1 from '../assets/images/Ellipse 41.svg'
 import ellipse2 from '../assets/images/Ellipse 50.svg'
 import ellipse3 from '../assets/images/Ellipse 55.svg'
@@ -37,6 +37,17 @@ import dev29 from "/src/assets/images/developer29.png";
 import dev30 from "/src/assets/images/developer30.png";
 import dev31 from "/src/assets/images/developer31.png";
 import dev25 from "/src/assets/images/developerx.png";
+
+import msgOdunlami from "../assets/images/msg-Odunlami.png";
+import msgAishat from "../assets/images/msg-Aishat.png";
+import msgKolade from "../assets/images/msg-Kolade.png";
+import msgOrji from "../assets/images/msg-Orji.png";
+import msgKweku from "../assets/images/msg-Kweku.png";
+import msgOkafor from "../assets/images/msg-Okafor.png";
+import msgAdewole from "../assets/images/msg-Adewole.png";
+
+
+
 
 
 export const navLinks = [
@@ -285,10 +296,91 @@ export const tabTitles = [
 
 export const topRecruits = [
   { id: 1, name: 'Kolade Maya', track: 'Backend Developer', img: ellipse3 },
-  { id: 2, name: 
-  'Odunlami Oluwafemi', track: 'UI/UX', img: ellipse1 },
-  { id: 3, name: 'Bakare Aishat', track: 'Frontend Developer' , img: ellipse2 },
-  { id: 4, name: 'Temitope Fabian', track: 'CAD' , img: ellipse4 },
-  { id: 5, name: 'Daramola Adesanya', track: 'Product Management' , img: ellipse5},
-  { id: 6, name: 'Orji Clement', track: 'CAD' , img: ellipse6}
+  {
+    id: 2, name:
+      'Odunlami Oluwafemi', track: 'UI/UX', img: ellipse1
+  },
+  { id: 3, name: 'Bakare Aishat', track: 'Frontend Developer', img: ellipse2 },
+  { id: 4, name: 'Temitope Fabian', track: 'CAD', img: ellipse4 },
+  { id: 5, name: 'Daramola Adesanya', track: 'Product Management', img: ellipse5 },
+  { id: 6, name: 'Orji Clement', track: 'CAD', img: ellipse6 }
 ];
+
+const specificTime = moment().set({ hour: 9, minute: 15, second: 0, millisecond: 0 });
+
+export const contacts = [
+  {
+    id: 1,
+    name: 'Odunlami Oluwafemi',
+    img: msgOdunlami,
+    lastMessage: 'Hello!',
+    messages: [
+      { text: 'Hello!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hi there!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Aishat Muibudeen',
+    img: msgAishat,
+    lastMessage: 'Hi there!',
+    messages: [
+      { text: 'Hi there!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'How are you?', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  // Add more contacts here
+  {
+    id: 3,
+    name: 'Kolade Maya',
+    img: msgKolade,
+    lastMessage: 'Hey!',
+    messages: [
+      { text: 'Hey!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hello!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 4,
+    name: 'Orji Clement',
+    img: msgOrji,
+    lastMessage: 'Good morning!',
+    messages: [
+      { text: 'Good morning!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good morning!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Kweku Frimpong',
+    img: msgKweku,
+    lastMessage: 'Howdy!',
+    messages: [
+      { text: 'Howdy!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hi!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 6,
+    name: 'Okafor Mary',
+    img: msgOkafor,
+    lastMessage: 'Good evening!',
+    messages: [
+      { text: 'Good evening!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good evening!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 7,
+    name: 'Adewole Michelle',
+    img: msgAdewole,
+    lastMessage: 'Good evening!',
+    messages: [
+      { text: 'Good evening!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good evening!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+];
+
+
+// console.log(specificTime.toISOString())
