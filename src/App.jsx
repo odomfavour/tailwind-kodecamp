@@ -11,6 +11,8 @@ import Contact from "./pages/Contact";
 import RecruitDetails from "./pages/RecruitDetails";
 import RecruitersInfo from "./pages/RecruitersInfo";
 import Developers from "./pages/Developers";
+import Messaging from "./pages/Messaging";
+
 import Products from "./pages/Products";
 import NotFound from "./pages/NotFound";
 import SingleProduct from "./pages/SingleProduct";
@@ -29,6 +31,7 @@ function App() {
       <Route path="/recruits" element={<Recruit />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/developers" element={<Developers />} />
+      <Route path="/messaging" element={<Messaging />} />
       <Route path="/products" element={<Products />} />
       <Route path="/products/:id" element={<SingleProduct />} />
       <Route path="*" element={<NotFound />} />
