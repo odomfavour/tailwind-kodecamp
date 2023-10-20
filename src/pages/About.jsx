@@ -1,8 +1,8 @@
 // import AuthHeader from '../components/AuthHeader';
-import MainLayout from '../components/layout/MainLayout';
-import ShortHero from '../components/about_page_comoponents/ShortHero';
-import AboutKodecamp from '../components/about_page_comoponents/About-kodecamp';
-import Vision from '../components/about_page_comoponents/vision';
+import MainLayout from "../components/layout/MainLayout";
+import ShortHero from "../components/about_page_comoponents/ShortHero";
+import AboutKodecamp from "../components/about_page_comoponents/About-kodecamp";
+import Vision from "../components/about_page_comoponents/vision";
 // import Header from '../components/Header';
 
 // import {vision} from '../assets/images/vision.png';

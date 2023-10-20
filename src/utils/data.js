@@ -1,41 +1,54 @@
-/* eslint-disable no-unused-vars */
-import ellipse1 from '../assets/images/Ellipse 41.svg';
-import ellipse2 from '../assets/images/Ellipse 50.svg';
-import ellipse3 from '../assets/images/Ellipse 55.svg';
-import ellipse4 from '../assets/images/Ellipse 67.svg';
-import ellipse5 from '../assets/images/Ellipse 68.svg';
-import ellipse6 from '../assets/images/Ellipse 69.svg';
-import dev from '/src/assets/images/developer.png';
-import dev1 from '/src/assets/images/developer1.png';
-import dev2 from '/src/assets/images/developer2.png';
-import dev3 from '/src/assets/images/developer3.png';
-import dev4 from '/src/assets/images/developer4.png';
-import dev5 from '/src/assets/images/developer5.png';
-import dev6 from '/src/assets/images/developer6.png';
-import dev7 from '/src/assets/images/developer7.png';
-import dev8 from '/src/assets/images/developer8.png';
-import dev9 from '/src/assets/images/developer9.png';
-import dev10 from '/src/assets/images/developer10.png';
-import dev11 from '/src/assets/images/developer11.png';
-import dev12 from '/src/assets/images/developer12.png';
-import dev14 from '/src/assets/images/developery.png';
-import dev15 from '/src/assets/images/developer15.png';
-import dev16 from '/src/assets/images/developer16.png';
-import dev17 from '/src/assets/images/developer17.png';
-import dev18 from '/src/assets/images/developer18.png';
-import dev19 from '/src/assets/images/developer19.png';
-import dev20 from '/src/assets/images/developer20.png';
-import dev21 from '/src/assets/images/developer21.png';
-import dev22 from '/src/assets/images/developer22.png';
-import dev23 from '/src/assets/images/developer23.png';
-import dev24 from '/src/assets/images/developer24.png';
-import dev26 from '/src/assets/images/developer26.png';
-import dev27 from '/src/assets/images/developer27.png';
-import dev28 from '/src/assets/images/developer28.png';
-import dev29 from '/src/assets/images/developer29.png';
-import dev30 from '/src/assets/images/developer30.png';
-import dev31 from '/src/assets/images/developer31.png';
-import dev25 from '/src/assets/images/developerX.png';
+import moment from 'moment';
+import ellipse1 from '../assets/images/Ellipse 41.svg'
+import ellipse2 from '../assets/images/Ellipse 50.svg'
+import ellipse3 from '../assets/images/Ellipse 55.svg'
+import ellipse4 from '../assets/images/Ellipse 67.svg'
+import ellipse5 from '../assets/images/Ellipse 68.svg'
+import ellipse6 from '../assets/images/Ellipse 69.svg'
+
+import dev from "/src/assets/images/developer.png";
+import dev1 from "/src/assets/images/developer1.png";
+import dev2 from "/src/assets/images/developer2.png";
+import dev3 from "/src/assets/images/developer3.png";
+import dev4 from "/src/assets/images/developer4.png";
+import dev5 from "/src/assets/images/developer5.png";
+import dev6 from "/src/assets/images/developer6.png";
+import dev7 from "/src/assets/images/developer7.png";
+import dev8 from "/src/assets/images/developer8.png";
+import dev9 from "/src/assets/images/developer9.png";
+import dev10 from "/src/assets/images/developer10.png";
+import dev11 from "/src/assets/images/developer11.png";
+import dev12 from "/src/assets/images/developer12.png";
+import dev14 from "/src/assets/images/developery.png";
+import dev15 from "/src/assets/images/developer15.png";
+import dev16 from "/src/assets/images/developer16.png";
+import dev17 from "/src/assets/images/developer17.png";
+import dev18 from "/src/assets/images/developer18.png";
+import dev19 from "/src/assets/images/developer19.png";
+import dev20 from "/src/assets/images/developer20.png";
+import dev21 from "/src/assets/images/developer21.png";
+import dev22 from "/src/assets/images/developer22.png";
+import dev23 from "/src/assets/images/developer23.png";
+import dev24 from "/src/assets/images/developer24.png";
+import dev26 from "/src/assets/images/developer26.png";
+import dev27 from "/src/assets/images/developer27.png";
+import dev28 from "/src/assets/images/developer28.png";
+import dev29 from "/src/assets/images/developer29.png";
+import dev30 from "/src/assets/images/developer30.png";
+import dev31 from "/src/assets/images/developer31.png";
+import dev25 from "/src/assets/images/developerX.png";
+
+import msgOdunlami from "../assets/images/msg-Odunlami.png";
+import msgAishat from "../assets/images/msg-Aishat.png";
+import msgKolade from "../assets/images/msg-Kolade.png";
+import msgOrji from "../assets/images/msg-Orji.png";
+import msgKweku from "../assets/images/msg-Kweku.png";
+import msgOkafor from "../assets/images/msg-Okafor.png";
+import msgAdewole from "../assets/images/msg-Adewole.png";
+
+
+
+
 
 export const navLinks = [
   { id: 1, name: 'Home', url: '/' },
@@ -393,3 +406,82 @@ export const DesignersInfo = [
     src: womanGarage,
   },
 ];
+
+const specificTime = moment().set({ hour: 9, minute: 15, second: 0, millisecond: 0 });
+
+export const contacts = [
+  {
+    id: 1,
+    name: 'Odunlami Oluwafemi',
+    img: msgOdunlami,
+    lastMessage: 'Hello!',
+    messages: [
+      { text: 'Hello!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hi there!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Aishat Muibudeen',
+    img: msgAishat,
+    lastMessage: 'Hi there!',
+    messages: [
+      { text: 'Hi there!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'How are you?', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  // Add more contacts here
+  {
+    id: 3,
+    name: 'Kolade Maya',
+    img: msgKolade,
+    lastMessage: 'Hey!',
+    messages: [
+      { text: 'Hey!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hello!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 4,
+    name: 'Orji Clement',
+    img: msgOrji,
+    lastMessage: 'Good morning!',
+    messages: [
+      { text: 'Good morning!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good morning!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 5,
+    name: 'Kweku Frimpong',
+    img: msgKweku,
+    lastMessage: 'Howdy!',
+    messages: [
+      { text: 'Howdy!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Hi!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 6,
+    name: 'Okafor Mary',
+    img: msgOkafor,
+    lastMessage: 'Good evening!',
+    messages: [
+      { text: 'Good evening!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good evening!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+  {
+    id: 7,
+    name: 'Adewole Michelle',
+    img: msgAdewole,
+    lastMessage: 'Good evening!',
+    messages: [
+      { text: 'Good evening!', sender: 'contact', timestamp: specificTime.toISOString() },
+      { text: 'Good evening!', sender: 'me', timestamp: specificTime.toISOString() },
+    ],
+  },
+];
+
+
+// console.log(specificTime.toISOString())
