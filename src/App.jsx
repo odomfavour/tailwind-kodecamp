@@ -4,7 +4,7 @@ import Home from "./pages/Index";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
 import Blog from "./pages/Blog";
 
