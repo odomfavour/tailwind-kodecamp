@@ -4,6 +4,8 @@ import Home from "./pages/Index";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+// import Contact from "./pages/Contact";
+import BlogDetails from "./pages/BlogDetails";
 import Blog from "./pages/Blog";
 
 import Recruit from "./pages/Recruits";
@@ -30,6 +32,7 @@ function App() {
       <Route path="/recruiter-info" element={<RecruitersInfo />} />
       <Route path="/recruits" element={<Recruit />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/blog/:blogId" element={<BlogDetails />} />
       <Route path="/developers" element={<Developers />} />
       <Route path="/messaging" element={<Messaging />} />
       <Route path="/products" element={<Products />} />
